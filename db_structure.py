@@ -8,7 +8,7 @@ metadata = MetaData()
 class Trainee(Base):
     __tablename__ = "trainee"
 
-    ID = Column(CHAR(5), primary_key=True, nullable=True)
+    ID = Column(CHAR(5), primary_key=True)
     name = Column(VARCHAR(20), nullable=False)
     dept_name = Column(VARCHAR(20))
 
@@ -16,6 +16,6 @@ class Trainee(Base):
 class Instructor(Base):
     __tablename__ = "instructor"
 
-    ID = Column(CHAR(5), primary_key=True, nullable=True)
+    ID = Column(CHAR(5), primary_key=True)
     name = Column(VARCHAR(20), nullable=False)
     dept_name = Column(VARCHAR(20))
