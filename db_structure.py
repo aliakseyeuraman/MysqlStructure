@@ -21,7 +21,7 @@ class Instructor(Base):
     dept_name = Column(VARCHAR(20))
 
 class Instructor(Base):
-    __tablename__ = "hr"
+    __tablename__ = "hrs"
 
     ID = Column(CHAR(5), primary_key=True)
     name = Column(VARCHAR(20), nullable=False)
