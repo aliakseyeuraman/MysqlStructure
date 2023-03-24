@@ -25,4 +25,4 @@ class Instructor(Base):
 
     ID = Column(CHAR(5), primary_key=True)
     name = Column(VARCHAR(20), nullable=False)
-    dept_name = Column(VARCHAR(20))
+    dept_name = Column(VARCHAR(20)) 
