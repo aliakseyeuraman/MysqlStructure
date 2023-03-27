@@ -11,7 +11,7 @@ class Trainee(Base):
     ID = Column(CHAR(5), primary_key=True)
     name = Column(VARCHAR(20), nullable=False)
     dept_name = Column(VARCHAR(20))
-
+    second_name = Column(VARCHAR(20), nullable=False)
 
 class Instructor(Base):
     __tablename__ = "instructor"
